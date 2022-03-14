@@ -1,0 +1,42 @@
+.customTable>tr,
+th {
+  
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+td {
+    border: 2px solid grey;
+    padding: 10px;
+}
+button{
+    margin: 3px;
+    background-color: rgb(134, 193, 218);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: mediumaquamarine;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+}
+
+.deleteButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: mediumaquamarine;
+}
